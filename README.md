@@ -41,8 +41,8 @@ template is designed to run inside it without any WorldLines install.
 
 ```bash
 # Clone the starter (or copy this folder into any project)
-git clone https://github.com/LudicDynamics/WorldLines-stoneford.git
-cd WorldLines-stoneford
+git clone https://github.com/LudicDynamics/stoneford-worldlines.git
+cd stoneford-worldlines
 
 # Open in Claude Code
 claude
@@ -226,6 +226,8 @@ Drifted from the earlier `llm-rpg-starter` project. Narrative design by
 
 ## Links
 
+- **Template repo**: [LudicDynamics/stoneford-worldlines](https://github.com/LudicDynamics/stoneford-worldlines)
 - **Engine**: [worldlines.gg](https://worldlines.gg) · [docs](https://docs.worldlines.gg) · [GitHub](https://github.com/LudicDynamics/WorldLines)
 - **Discord**: [discord.gg/HJYWbdqWrE](https://discord.gg/HJYWbdqWrE)
+- **Policies**: [SECURITY.md](./SECURITY.md) · [CODE_OF_CONDUCT.md](./CODE_OF_CONDUCT.md)
 - **Full Stoneford**: `stoneford-worldlines-full.zip` — content expansion: +3 towns, 28 quests, 3 political backlines (see section above)

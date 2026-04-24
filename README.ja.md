@@ -42,8 +42,8 @@ neonrp tui
 
 ```bash
 # スターターをクローン（またはこのフォルダを任意のプロジェクトにコピー）
-git clone https://github.com/LudicDynamics/WorldLines-stoneford.git
-cd WorldLines-stoneford
+git clone https://github.com/LudicDynamics/stoneford-worldlines.git
+cd stoneford-worldlines
 
 # Claude Code で開く
 claude
@@ -228,6 +228,8 @@ Copyright © 2026 Ludic Dynamics.
 
 ## 関連リンク
 
+- **Template repo**: [LudicDynamics/stoneford-worldlines](https://github.com/LudicDynamics/stoneford-worldlines)
 - **Engine**: [worldlines.gg](https://worldlines.gg) · [docs](https://docs.worldlines.gg) · [GitHub](https://github.com/LudicDynamics/WorldLines)
 - **Discord**: [discord.gg/HJYWbdqWrE](https://discord.gg/HJYWbdqWrE)
+- **Policies**: [SECURITY.md](./SECURITY.md) · [CODE_OF_CONDUCT.md](./CODE_OF_CONDUCT.md)
 - **Full Stoneford**: `stoneford-worldlines-full.zip` — 世界コンテンツ拡張パック: +3 街、28 クエスト、3 本の政治バックライン（上の節を参照）
