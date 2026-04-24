@@ -1,0 +1,17 @@
+SPDX-License-Identifier: AGPL-3.0-only
+
+Copyright © 2026 Ludic Dynamics
+
+stoneford-worldlines is licensed under the GNU Affero General Public
+License, version 3.0 (AGPL-3.0-only).
+
+You may copy, modify, and distribute this work under the terms of the
+AGPL-3.0. In particular, if you run a modified version of this program
+to interact with users over a network, you must make the corresponding
+source code of that modified version available to those users.
+
+The full license text is available at:
+  https://www.gnu.org/licenses/agpl-3.0.html
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
+OR IMPLIED. See the license for the full disclaimer.

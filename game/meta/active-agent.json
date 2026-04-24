@@ -1,0 +1,7 @@
+{
+  "active_agent": "combat-referee",
+  "reason": "dispatch enter: delegated from 'orchestrator' to 'combat-referee'",
+  "exit_condition": "auto-release after one-shot task completion",
+  "updated_at": "2026-04-15T10:14:42.846971+00:00",
+  "updated_by": "orchestrator"
+}
