@@ -6,6 +6,26 @@
 
 **Language:** [English](./README.md) · [简体中文](./README.zh.md) · [日本語](./README.ja.md) · [한국어](./README.ko.md)
 
+<p align="center">
+  <a href="https://youtu.be/QARKAA8bXDk">
+    <img src="https://img.youtube.com/vi/QARKAA8bXDk/maxresdefault.jpg" alt="WorldLines · Trailer" width="640"/>
+  </a>
+</p>
+<p align="center"><em>▶ Watch the trailer on YouTube</em></p>
+
+<table align="center">
+  <tr>
+    <td width="50%" align="center"><img src="./assets/cards/D1%20Mira%27s%20Tab%20%28deck%20%C2%B7%20EN%29.png" alt="Mira's Tab — story card" /></td>
+    <td width="50%" align="center"><img src="./assets/cards/D2%20Lao%20Wei%20Invite%20%28deck%20%C2%B7%20EN%29.png" alt="Lao Wei's Invite — story card" /></td>
+  </tr>
+  <tr>
+    <td width="50%" align="center"><img src="./assets/cards/D3%20Gameplay%20%28deck%20%C2%B7%20EN%29.png" alt="Gameplay loop" /></td>
+    <td width="50%" align="center"><img src="./assets/cards/D4%204%20Worlds%20%28deck%20%C2%B7%20EN%29.png" alt="Four playable worlds" /></td>
+  </tr>
+</table>
+
+> **Engine:** Stoneford runs on the [WorldLines](https://github.com/LudicDynamics/WorldLines) engine. For the engine itself, runtime, and full docs → [LudicDynamics/WorldLines](https://github.com/LudicDynamics/WorldLines).
+
 > **Disclaimer:** Stoneford is an original scenario co-authored by **nikoloside**, **redoctober**, and Claude, blending Eastern worldbuilding with Western medieval magic. If anything in here resembles other work, please reach out to the original authors so we can revise and update it.
 
 ---

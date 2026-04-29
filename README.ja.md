@@ -6,6 +6,26 @@
 
 **Language:** [English](./README.md) · [简体中文](./README.zh.md) · [日本語](./README.ja.md) · [한국어](./README.ko.md)
 
+<p align="center">
+  <a href="https://youtu.be/QARKAA8bXDk">
+    <img src="https://img.youtube.com/vi/QARKAA8bXDk/maxresdefault.jpg" alt="WorldLines · トレーラー" width="640"/>
+  </a>
+</p>
+<p align="center"><em>▶ YouTube でトレーラーを観る</em></p>
+
+<table align="center">
+  <tr>
+    <td width="50%" align="center"><img src="./assets/cards/D1%20%E3%83%9F%E3%83%A9%E3%81%AE%E3%83%84%E3%82%B1%20%28deck%20%C2%B7%20JA%29.png" alt="ミラのツケ — ストーリーカード" /></td>
+    <td width="50%" align="center"><img src="./assets/cards/D2%20%E8%80%81%E3%82%A6%E3%82%A7%E3%82%A4%E3%81%AE%E8%AA%98%E3%81%84%20%28deck%20%C2%B7%20JA%29.png" alt="老ウェイの誘い — ストーリーカード" /></td>
+  </tr>
+  <tr>
+    <td width="50%" align="center"><img src="./assets/cards/D3%20%E3%82%B2%E3%83%BC%E3%83%A0%E3%83%97%E3%83%AC%E3%82%A4%20%28deck%20%C2%B7%20JA%29.png" alt="ゲームプレイ" /></td>
+    <td width="50%" align="center"><img src="./assets/cards/D4%204%20%E3%81%A4%E3%81%AE%E4%B8%96%E7%95%8C%20%28deck%20%C2%B7%20JA%29.png" alt="4 つの世界" /></td>
+  </tr>
+</table>
+
+> **エンジン:** Stoneford は [WorldLines](https://github.com/LudicDynamics/WorldLines) エンジン上で動作します。エンジン本体・ランタイム・完全なドキュメントは [LudicDynamics/WorldLines](https://github.com/LudicDynamics/WorldLines) を参照してください。
+
 > **免責事項:** Stoneford は **nikoloside**、**redoctober**、そして Claude が共同で執筆したオリジナル シナリオで、東洋の世界観と西洋中世の魔法を融合させたものです。類似点がありましたら、修正・更新のため原作者までご連絡ください。
 
 ---

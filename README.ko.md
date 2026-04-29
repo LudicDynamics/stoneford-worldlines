@@ -6,6 +6,26 @@
 
 **Language:** [English](./README.md) · [简体中文](./README.zh.md) · [日本語](./README.ja.md) · [한국어](./README.ko.md)
 
+<p align="center">
+  <a href="https://youtu.be/QARKAA8bXDk">
+    <img src="https://img.youtube.com/vi/QARKAA8bXDk/maxresdefault.jpg" alt="WorldLines · 트레일러" width="640"/>
+  </a>
+</p>
+<p align="center"><em>▶ YouTube에서 트레일러 보기</em></p>
+
+<table align="center">
+  <tr>
+    <td width="50%" align="center"><img src="./assets/cards/D1%20%E7%B1%B3%EB%9D%BC%EC%99%B8%EC%83%81%20%28deck%20%C2%B7%20KO%29.png" alt="미라 외상 — 스토리 카드" /></td>
+    <td width="50%" align="center"><img src="./assets/cards/D2%20%EB%9D%BC%EC%98%A4%EC%9B%A8%EC%9D%B4%20%EC%95%BD%EC%86%8D%20%28deck%20%C2%B7%20KO%29.png" alt="라오웨이 약속 — 스토리 카드" /></td>
+  </tr>
+  <tr>
+    <td width="50%" align="center"><img src="./assets/cards/D3%20Gameplay%20%28deck%20%C2%B7%20KO%29.png" alt="Gameplay" /></td>
+    <td width="50%" align="center"><img src="./assets/cards/D4%204%20Worlds%20%28deck%20%C2%B7%20KO%29.png" alt="4 Worlds" /></td>
+  </tr>
+</table>
+
+> **엔진:** Stoneford는 [WorldLines](https://github.com/LudicDynamics/WorldLines) 엔진 위에서 동작합니다. 엔진 본체 · 런타임 · 전체 문서는 [LudicDynamics/WorldLines](https://github.com/LudicDynamics/WorldLines)를 참조하세요.
+
 > **면책 고지:** Stoneford 는 **nikoloside**, **redoctober**, Claude 가 함께 집필한 오리지널 시나리오로, 동양적 세계관과 서양 중세 마법을 융합한 작품입니다. 유사한 부분이 있다면 수정과 업데이트를 위해 원작자에게 연락해 주십시오.
 
 ---
