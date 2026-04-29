@@ -6,6 +6,26 @@
 
 **Language:** [English](./README.md) · [简体中文](./README.zh.md) · [日本語](./README.ja.md) · [한국어](./README.ko.md)
 
+<p align="center">
+  <a href="https://youtu.be/QARKAA8bXDk">
+    <img src="https://img.youtube.com/vi/QARKAA8bXDk/maxresdefault.jpg" alt="WorldLines · 预告片" width="640"/>
+  </a>
+</p>
+<p align="center"><em>▶ 在 YouTube 观看预告片</em></p>
+
+<table align="center">
+  <tr>
+    <td width="50%" align="center"><img src="./assets/cards/D1%20%E7%B1%B3%E6%8B%89%E8%B5%8A%E8%B4%A6%20%28deck%20%C2%B7%20ZH%29.png" alt="米拉赊账 — 故事卡" /></td>
+    <td width="50%" align="center"><img src="./assets/cards/D2%20%E8%80%81%E9%9F%A6%E7%BA%A6%E4%BD%A0%20%28deck%20%C2%B7%20ZH%29.png" alt="老韦约你 — 故事卡" /></td>
+  </tr>
+  <tr>
+    <td width="50%" align="center"><img src="./assets/cards/D3%20Gameplay%20%28deck%20%C2%B7%20ZH%29.png" alt="游戏流程" /></td>
+    <td width="50%" align="center"><img src="./assets/cards/D4%204%20Worlds%20%28deck%20%C2%B7%20ZH%29.png" alt="四个世界" /></td>
+  </tr>
+</table>
+
+> **引擎：** Stoneford 跑在 [WorldLines](https://github.com/LudicDynamics/WorldLines) 引擎上。引擎本身、运行时和完整文档 → [LudicDynamics/WorldLines](https://github.com/LudicDynamics/WorldLines)。
+
 > **免责声明：** Stoneford 是由 **nikoloside**、**redoctober** 与 Claude 共同创作的原创剧本，融合了东方世界观与西方中世纪魔法。如有任何相似之处，欢迎联系原作者以便我们修改和更新。
 
 ---
