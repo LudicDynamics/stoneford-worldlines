@@ -87,6 +87,33 @@ agents, reads / writes files under `game/`, and drives the scene.
 ## Agent architecture (4 layers · 10 agents)
 
 ```
+  L1 ── ROUTER
+        orchestrator                (only agent w/ triggers)
+
+  L2 ── DOMAIN  (mutate world files)
+        town-agent      dungeon-agent      world-builder
+        combat-referee  rules-referee
+
+  L3 ── PERSPECTIVE  (compose narrative)
+        npc-mind        story-narrative
+
+  L4 ── WORLD-TIME  (tick & drift)
+        clock-keeper    world-evolution
+
+   player ─▶ orchestrator
+             │   └─▶ domain      (write files)
+             │        ├─▶ perspective (read files → narrative)
+             │        └─▶ world-time  (advance clock, drift NPCs)
+             │
+             ▼
+           commit · return text
+```
+
+Same 10-agent layout runs in two backends: **Claude Code** (Claude) and the
+**WorldLines runtime** (Qwen). The WorldLines path is ~2–3× faster with
+comparable narrative quality. World keeps living between turns.
+
+```
 Layer 1  @orchestrator       — main router; every player input arrives here first
 Layer 2  @town-agent         — town interactions (NPCs, shops, guild, inn)
          @dungeon-agent      — dungeon exploration

@@ -89,6 +89,33 @@ agent をオーケストレートし、`game/` 下のファイルを読み書き
 ## Agent アーキテクチャ（4 層 · 10 agent）
 
 ```
+  L1 ── ROUTER
+        orchestrator                (only agent w/ triggers)
+
+  L2 ── DOMAIN  (mutate world files)
+        town-agent      dungeon-agent      world-builder
+        combat-referee  rules-referee
+
+  L3 ── PERSPECTIVE  (compose narrative)
+        npc-mind        story-narrative
+
+  L4 ── WORLD-TIME  (tick & drift)
+        clock-keeper    world-evolution
+
+   player ─▶ orchestrator
+             │   └─▶ domain      (write files)
+             │        ├─▶ perspective (read files → narrative)
+             │        └─▶ world-time  (advance clock, drift NPCs)
+             │
+             ▼
+           commit · return text
+```
+
+同じ 10-agent 構成は 2 つのバックエンドで動きます：**Claude Code**（Claude）
+と **WorldLines ランタイム**（Qwen）。WorldLines 経路は Claude Code 経路より
+約 2–3× 高速で、ナラティブ品質は同等。ターンの間も世界は動き続けます。
+
+```
 Layer 1  @orchestrator       — メインルーター; 全プレイヤー入力が最初に到達
 Layer 2  @town-agent         — 街の相互作用（NPC・店・ギルド・宿）
          @dungeon-agent      — ダンジョン探索
