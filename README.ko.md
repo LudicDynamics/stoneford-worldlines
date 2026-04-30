@@ -87,6 +87,34 @@ claude
 ## Agent 아키텍처 (4 계층 · 10 agent)
 
 ```
+  L1 ── ROUTER
+        orchestrator                (only agent w/ triggers)
+
+  L2 ── DOMAIN  (mutate world files)
+        town-agent      dungeon-agent      world-builder
+        combat-referee  rules-referee
+
+  L3 ── PERSPECTIVE  (compose narrative)
+        npc-mind        story-narrative
+
+  L4 ── WORLD-TIME  (tick & drift)
+        clock-keeper    world-evolution
+
+   player ─▶ orchestrator
+             │   └─▶ domain      (write files)
+             │        ├─▶ perspective (read files → narrative)
+             │        └─▶ world-time  (advance clock, drift NPCs)
+             │
+             ▼
+           commit · return text
+```
+
+동일한 10-agent 구성이 두 백엔드에서 실행됩니다: **Claude Code** (Claude)
+와 **WorldLines 런타임** (Qwen). WorldLines 경로는 Claude Code 경로보다
+약 2–3× 빠르며, 내러티브 품질은 동등합니다. 턴 사이에도 세계는 계속
+살아 움직입니다.
+
+```
 Layer 1  @orchestrator       — 메인 라우터; 모든 플레이어 입력이 먼저 도달
 Layer 2  @town-agent         — 도시 상호작용 (NPC, 상점, 길드, 여관)
          @dungeon-agent      — 던전 탐험

@@ -85,6 +85,33 @@ domain agents，读写 `game/` 下的文件，推动剧情。
 ## Agent 架构（4 层 · 10 个 agent）
 
 ```
+  L1 ── ROUTER
+        orchestrator                (only agent w/ triggers)
+
+  L2 ── DOMAIN  (mutate world files)
+        town-agent      dungeon-agent      world-builder
+        combat-referee  rules-referee
+
+  L3 ── PERSPECTIVE  (compose narrative)
+        npc-mind        story-narrative
+
+  L4 ── WORLD-TIME  (tick & drift)
+        clock-keeper    world-evolution
+
+   player ─▶ orchestrator
+             │   └─▶ domain      (write files)
+             │        ├─▶ perspective (read files → narrative)
+             │        └─▶ world-time  (advance clock, drift NPCs)
+             │
+             ▼
+           commit · return text
+```
+
+同一套 10-agent 框架可以跑在两个后端：**Claude Code**（Claude）与
+**WorldLines 运行时**（Qwen）。WorldLines 路径比 Claude Code 路径快约
+2–3×，叙事质量相当。回合之间，世界依然在前进。
+
+```
 Layer 1  @orchestrator       — 主路由；所有玩家输入先进这里
 Layer 2  @town-agent         — 城镇交互（NPC、商店、公会、旅店）
          @dungeon-agent      — 地下城探索
